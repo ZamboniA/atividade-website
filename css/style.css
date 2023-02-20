@@ -1,0 +1,186 @@
+body{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: white;
+    width: 100%;
+}
+
+a:visited{
+    color: black;
+}
+
+
+#texto-superior{
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#texto-superior h2{
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+
+}
+
+#texto-superior h2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+#navigation{
+    background: white; 
+    margin-left: -10px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    margin-right: 0px;
+}
+
+#logo img{
+    display: block;
+
+}
+
+.logo{
+    width: 200px;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #DAC455;
+    padding: 21px;
+}
+
+nav li a:visited{
+    color: inherit
+}
+
+
+/* -------------------- CAROUSEL -------------------------------------*/
+
+.item .hover-carousel{
+    background-color: white;
+}
+
+.item img{
+    height: 350px;
+}
+
+.item h3 {
+    text-align: center;
+}
+
+.preco .preco-produto{
+    text-align: center;
+}
+
+.preco h3{
+    text-align: center;
+}
+
+.preco .preco-produto .taxado{
+    text-decoration: line-through;
+}
+
+.item .preco .symbol{
+    top:-1em;
+    font-size: 12px;
+}
+
+.item .preco .valor{
+    font-size: 21px;
+}
+
+.item .preco span{
+    font-size: 21px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+/* ------------------ SUPLEMENTOS ------------------------- */
+
+h2{
+    background-color: #DAC455;
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+#suplementos{
+    background-color: white ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#temperos{
+    background-color: white ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#chas{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-site ul{
+    padding: 20px 0;
+    background-color: #DAC455;
+    text-align: center;
+}
+
+#info-site ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+#info-site ul li a:hover{
+    text-decoration: none;
+    background-color: black;
+    font: white;
+    color: #ffff;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
